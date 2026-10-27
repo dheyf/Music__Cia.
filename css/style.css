@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(
+        135deg,
+        rgb(64, 11, 83),
+        rgb(231, 235, 237),
+        rgb(64, 11, 83)
+    );
+
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 200px;
+    box-shadow: 0 0 15px rgb(249, 248, 248);
+}
+
+.container{
+    width: 500px;
+    margin: 60px auto;
+    background-color: rgb(249, 248, 248);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1{
+    color: rgb(94, 25, 113);
+}
+p{
+    color: rgb(94, 25, 113);
+}
+input::placeholder{
+    color: rgb(64, 24, 71);
+}
+
+button{
+    width: 30%;
+    height: 20px auto;
+    background-color: rgb(159, 96, 176);
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.card{
+    gap: 10px;
+}
